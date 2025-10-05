@@ -4789,38 +4789,66 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 
 === TRAINER_ROXANNE_1 ===
-Name: ROXANNE
+Name: Donovan
 Class: Leader
 Pic: Leader Roxanne
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
 Items: Potion / Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
+Mugshot: Purple
 
-Geodude
+Tandemaus  
+Ability: Own Tempo  
 Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Ball: Beast Ball  
+Tera Type: Normal  
+EVs: 244 Atk / 84 Def / 84 SpD / 44 Spe  
+Jolly Nature  
+- Baby-Doll Eyes  
+- Taunt  
+- U-turn  
+- Population Bomb  
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Zorua-Hisui  
+Ability: Illusion  
+Level: 13
+Ball: Beast Ball
+Tera Type: Normal  
+EVs: 112 SpD / 116 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Torment  
+- Snarl  
+- Confuse Ray  
+- Swift  
 
-Nosepass @ Oran Berry
+Stufful  
+Ability: Fluffy  
+Level: 14
+Ball: Beast Ball  
+Tera Type: Normal  
+EVs: 248 Atk / 248 SpD  
+Adamant Nature  
+- Brutal Swing  
+- Endure  
+- Tackle  
+- Flail  
+
+Switcha (Trumbeak) @ Expert Belt  
+Ability: Skill Link  
 Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+Ball: Beast Ball  
+Shiny: Yes  
+Tera Type: Normal  
+EVs: 236 Atk / 12 Def / 252 SpD  
+Adamant Nature  
+- Pluck  
+- Fury Attack  
+- Thief  
+- Roost  
+
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
