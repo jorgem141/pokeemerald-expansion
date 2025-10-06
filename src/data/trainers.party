@@ -6007,10 +6007,29 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
+Buneary
+Level: 10
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Double Hit
+- Encore
+- Low Kick
+- Fake Out
+
+Whismur
+Level: 9
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Echoed Voice
+- Astonish
+- Attract
+- Disarming Voice
+
+Smoliv
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Growth
+- Razor Leaf
 - Tackle
+- Absorb
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -6021,13 +6040,29 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
+Shroodle
 Level: 9
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Acid Spray
+- Bite
+- Endure
+- Scratch
 
-Geodude
+Patrat
 Level: 9
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Leer
+- Bite
+- Detect
+- Tearful Look
+
+Rattata
+Level: 10
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Energy
+- Bite
+- Last Resort
+- Tackle
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -10588,13 +10623,13 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 9
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Geodude
-Level: 9
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Lickitung
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Lick
+- Curse
+- Cut
+- Supersonic
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
