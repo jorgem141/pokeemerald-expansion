@@ -181,9 +181,9 @@ RustboroCity_Gym_Text_ReceivedStoneBadge:
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "Whatever man, just take the badge.\n"
-	.string "It let's you use Cut outside of battle.\p"
-	.string "You don't even have to teach it to your guys.\n"
-	.string "Thank God.$"
+	.string "It lets you use Cut outside of battle.\p"
+	.string "You don't even have to teach it to.\n"
+	.string "your guys. Thank God.$"
 
 
 RustboroCity_Gym_Text_ExplainRockTomb:
