@@ -167,12 +167,12 @@ RustboroCity_Gym_Text_RoxanneIntro:
 	.string "beat me 6-0?\p"
 	.string "Man that's why I don't fuck\n"
 	.string "with you for real.\p"
-	.string "Hurry up. I have homework to do.$"
+	.string "We can battle, I GUESS.$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "Guess I'm just the fucking chuzz\n"
 	.string "Guess I'm just a stupid fucking\p"
-	.string "McDonald's wagie.\n"
+	.string "broke fat piece of shit.\n"
 	.string "Fuck my chuzz life.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
@@ -180,27 +180,22 @@ RustboroCity_Gym_Text_ReceivedStoneBadge:
 	.string "from Kipp.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
-	.string "The FREAK BADGE heightens the ATTACK\n"
-	.string "power of your POKéMON.\p"
-	.string "It also enables them to use the HM move\n"
-	.string "CUT outside of battle.\p"
-	.string "Please take this with you, too.$"
+	.string "Whatever man, just take the badge.\n"
+	.string "It let's you use Cut outside of battle.\p"
+	.string "You don't even have to teach it to your guys.\n"
+	.string "Thank God.$"
+
 
 RustboroCity_Gym_Text_ExplainRockTomb:
-	.string "That TECHNICAL MACHINE, TM39,\n"
-	.string "contains ROCK TOMB.\p"
-	.string "It not only inflicts damage by dropping\n"
-	.string "rocks, it also lowers SPEED.\p"
-	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a POKéMON.\p"
-	.string "Remember, a TM can be used only once,\n"
-	.string "so think before you use it.$"
+	.string "Speaking of QoL, take this.\n"
+	.string "TM's are reusable so don't worry.\p"
+	.string "Spam it on everyone if you want.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
-	.string "Since you are so strong, you should\n"
-	.string "challenge other GYM LEADERS.\p"
-	.string "By battling many TRAINERS, you should\n"
-	.string "learn many things.$"
+	.string "You're still here?\n"
+	.string "You should leave soon man.\p"
+	.string "I'm gonna go to the vending machine\n"
+	.string "and jerk my shit.$"
 
 RustboroCity_Gym_Text_GymStatue:
 	.string "RUSTBORO CITY POKéMON GYM$"
@@ -212,24 +207,15 @@ RustboroCity_Gym_Text_GymStatueCertified:
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "ROXANNE: Oh, hello, {PLAYER}?\n"
-	.string "This is ROXANNE of RUSTBORO CITY.\p"
-	.string "I heard from BRAWLY that you're\n"
-	.string "moving up through the ranks of\l"
-	.string "TRAINERS at an incredible clip.\p"
-	.string "Well, I'd rather not think that\n"
-	.string "I can't beat you.\p"
-	.string "I promise, I will shape up my GYM\n"
-	.string "so that you may challenge us again.\p"
-	.string "I hope you'll be looking forward to\n"
-	.string "that occasion as much as me!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "… … … …budoop!\p"
+	.string "Kipp: Hey pookieeee\n"
+	.string "I sent you a friend request on Discord.\p"
+	.string "You can accept it if you want.\n"
+	.string "Or don't, it's up to you.\p"
+	.string "… … … … dudoop!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered GYM LEADER KIPP\n"
-	.string "in the POKéNAV.$"
+	.string "Added Kipp on Discord.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
 	.string "ROXANNE: I'm so glad to see you again.\n"
