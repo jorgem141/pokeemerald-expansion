@@ -114,16 +114,11 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "Well, I won't say too much more...$"
 
 RustboroCity_Gym_Text_GymGuidePostVictory:
-	.string "Whoa! What a breathtaking victory!\n"
-	.string "My cheering must've worked!\p"
-	.string "Great!\n"
-	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
-	.string "properly recorded on it.\p"
-	.string "In other words…\p"
-	.string "You've climbed the first step on\n"
-	.string "the stairs to the CHAMPIONSHIP!\p"
-	.string "That's got to feel awesome!$"
+	.string "Nice win!\p"
+	.string "By the way, if you\n"
+	.string "curious...\l"
+	.string "Badge Boost isn't in this game.\p"
+	.string "Do you even know what that is?$"
 
 RustboroCity_Gym_Text_JoshIntro:
 	.string "Dude if I have to retake this class\n"
