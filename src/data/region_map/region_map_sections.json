@@ -18,7 +18,7 @@
     },
     {
       "id": "MAPSEC_DEWFORD_TOWN",
-      "name": "DEWFORD CLEARINF",
+      "name": "DEWFORD TOWN",
       "x": 2,
       "y": 14,
       "width": 1,
@@ -1230,6 +1230,10 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_DEWFORD_CLEARING",
+      "name": "Dewford Clearing"
     }
   ]
 }
