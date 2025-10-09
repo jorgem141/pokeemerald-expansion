@@ -209,7 +209,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
 	.string "… … … …budoop!\p"
 	.string "Kipp: Hey pookieeee\n"
-	.string "I sent you a friend request on Discord.\p"
+	.string "I sent you a request on Discord.\p"
 	.string "You can accept it if you want.\n"
 	.string "Or don't, it's up to you.\p"
 	.string "… … … … dudoop!$"
