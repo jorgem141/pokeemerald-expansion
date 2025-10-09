@@ -115,10 +115,11 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 
 RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "Nice win!\p"
-	.string "By the way, if you\n"
+	.string "By the way, if you were\n"
 	.string "curious...\l"
 	.string "Badge Boost isn't in this game.\p"
-	.string "Do you even know what that is?$"
+	.string "Hmm...\n"
+	.string "Did you even know what that was?$"
 
 RustboroCity_Gym_Text_JoshIntro:
 	.string "Dude if I have to retake this class\n"
