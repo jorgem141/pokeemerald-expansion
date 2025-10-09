@@ -4885,7 +4885,7 @@ Adamant Nature
 
 
 === TRAINER_BRAWLY_1 ===
-Name: BRAWLY
+Name: XINNOTHY
 Class: Leader
 Pic: Leader Brawly
 Gender: Male
@@ -8022,7 +8022,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Sludge
 
 === TRAINER_JOCELYN ===
-Name: Freddy
+Name: Freddie
 Class: Pokefan
 Pic: Pokefan M
 Gender: Female
@@ -10784,7 +10784,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Supersonic
 
 === TRAINER_BRENDEN ===
-Name: BRENDEN
+Name: Freddy
 Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
