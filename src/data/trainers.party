@@ -4827,7 +4827,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 
 === TRAINER_ROXANNE_1 ===
-Name: Donovan
+Name: DONOVAN
 Class: Leader
 Pic: Leader Roxanne
 Gender: Male
@@ -4955,46 +4955,78 @@ Adamant Nature
 
 
 === TRAINER_WATTSON_1 ===
-Name: WATTSON
+Name: JUJU
 Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
+Mugshot: Blue
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_BASIC_TRAINER / AI_FLAG_OMNISCIENT / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_PP_STALL_PREVENTION / Ace Pokemon
 
-Voltorb
-Level: 23
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+Spidops @ Focus Sash  
+Ability: Stakeout  
+Level: 24   
+EVs: 248 HP / 12 Atk / 240 Def  
+Impish Nature  
+- Silk Trap  
+- Sticky Web  
+- Counter  
+- Lunge  
 
-Electrike
-Level: 23
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
+Vespiquen  
+Ability: Unnerve  
+Level: 24    
+EVs: 236 HP / 20 SpA / 244 SpD / 8 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Confuse Ray  
+- Air Slash  
+- Roost  
+- Signal Beam  
 
-Magneton
-Level: 25
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
-- Thunder Wave
-- Sonic Boom
+Araquanid  
+Ability: Water Bubble  
+Level: 25   
+EVs: 228 HP / 244 Atk / 36 SpA  
+Brave Nature  
+- Infestation  
+- Bug Bite  
+- Water Pulse  
+- Pounce  
 
-Manectric @ Sitrus Berry
-Level: 28
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+Galvantula  
+Ability: Unnerve  
+Level: 27  
+EVs: 244 SpA / 20 SpD / 244 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Electro Ball  
+- Giga Drain  
+- Protect  
+- Agility  
+
+Scyther  
+Ability: Technician  
+Level: 28  
+EVs: 240 Atk / 8 SpD / 252 Spe  
+Jolly Nature  
+- U-turn  
+- Bug Bite  
+- Slash  
+- Quick Attack  
+
+Weavile @ Metronome  
+Ability: Pressure  
+Level: 28  
+Tera Type: Bug  
+EVs: 248 Atk / 12 SpD / 248 Spe  
+Jolly Nature  
+- Fury Cutter  
+- Ice Shard  
+- Fake Out  
+- Knock Off  
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -5039,11 +5071,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Attract
 
 === TRAINER_NORMAN_1 ===
-Name: NORMAN
+Name: CURRY
 Class: Leader
 Pic: Leader Norman
 Gender: Male
-Music: Male
+Music: Cool
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
@@ -5081,54 +5113,81 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Feint Attack
 
 === TRAINER_WINONA_1 ===
-Name: WINONA
+Name: SPIDER
 Class: Leader
 Pic: Leader Winona
-Gender: Female
-Music: Female
+Gender: Male
+Music: Male
+Mugshot: Purple
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer / Risky
+AI: AI_FLAG_BASIC_TRAINER / AI_FLAG_OMNISCIENT / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_PP_STALL_PREVENTION / Ace Pokemon / Risky
 
-Swablu
-Level: 33
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
+Cyclizar @ Sitrus Berry  
+Ability: Regenerator  
+Level: 33   
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Shed Tail  
+- Taunt  
+- Body Slam  
+- Acrobatics  
 
-Tropius
-Level: 33
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Synthesis
+Kingdra @ Scope Lens  
+Ability: Sniper  
+Level: 33  
+EVs: 244 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Focus Energy  
+- Scald  
+- Dragon Breath  
+- Icy Wind  
 
-Pelipper
-Level: 34
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
-- Protect
-- Aerial Ace
+Gabite @ Rocky Helmet  
+Ability: Rough Skin  
+Level: 34   
+EVs: 64 HP / 168 Atk / 64 Def / 212 Spe  
+Jolly Nature  
+- Slash  
+- Bulldoze  
+- Thrash  
+- Stealth Rock  
 
-Skarmory
-Level: 36
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
-- Aerial Ace
+Tyrantrum @ Muscle Band  
+Ability: Strong Jaw  
+Level: 36  
+EVs: 244 HP / 244 Atk / 16 SpD  
+Adamant Nature  
+- Dragon Tail  
+- Crunch  
+- Fire Fang  
+- Rock Tomb  
 
-Altaria @ Oran Berry
-Level: 38
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+Lycanroc-Midnight @ Lum Berry  
+Ability: No Guard  
+Level: 38  
+Tera Type: Dragon  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Outrage  
+- Close Combat  
+- Stone Edge  
+- Rock Polish  
+
+Drampa @ Custap Berry  
+Ability: Berserk  
+Level: 38  
+Happiness: 0  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Dragon Pulse  
+- Ice Beam  
+- Thunderbolt  
+- Hyper Beam  
+
+
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -9673,48 +9732,80 @@ Pic: Wally
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
+Mugshot: Yellow
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
 
-Altaria
-Level: 51
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aerial Ace
-- Safeguard
-- Dragon Breath
-- Dragon Dance
+Skarmory @ Rocky Helmet  
+Ability: Sturdy  
+Level: 51  
+Tera Type: Flying  
+EVs: 252 HP / 232 Def / 24 Spe  
+Impish Nature  
+- Stealth Rock  
+- Spikes  
+- Brave Bird  
+- Roost  
 
-Delcatty
-Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Sing
-- Assist
-- Charm
-- Feint Attack
+Typhlosion-Hisui @ Choice Scarf  
+Ability: Blaze  
+Level: 52  
+Tera Type: Fire  
+EVs: 248 SpA / 12 SpD / 248 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Eruption  
+- Infernal Parade  
+- Focus Blast  
+- Extrasensory  
 
-Roselia
-Level: 51
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Magical Leaf
-- Leech Seed
-- Giga Drain
-- Toxic
+Floatzel @ Life Orb  
+Ability: Water Veil  
+Level: 53  
+Tera Type: Water  
+EVs: 60 HP / 252 Atk / 196 Spe  
+Adamant Nature  
+- Wave Crash  
+- Aqua Jet  
+- Flip Turn  
+- Ice Spinner  
 
-Magneton
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Supersonic
-- Thunderbolt
-- Tri Attack
-- Screech
+Clodsire @ Leftovers  
+Ability: Unaware  
+Level: 54  
+Tera Type: Dark  
+EVs: 252 HP / 4 Atk / 248 SpD  
+Careful Nature  
+- Recover  
+- Toxic  
+- Haze  
+- Earthquake  
 
-Gardevoir
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Team
-- Calm Mind
-- Psychic
-- Future Sight
+Exeggutor-Alola @ Eject Pack  
+Ability: Frisk  
+Level: 55  
+Tera Type: Fire  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Leaf Storm  
+- Flamethrower  
+- Giga Drain  
+
+Pikachu @ Light Ball  
+Ability: Lightning Rod  
+Level: 60
+Gigantamax: Yes  
+Tera Type: Stellar  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Volt Tackle  
+- Thunderbolt  
+- Surf  
+- Alluring Voice  
+
+
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN
@@ -12334,17 +12425,35 @@ Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
-Name: WALLY
+Name: PASTY
 Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+Mugshot: Yellow
+AI: Smart Trainer
 
-Ralts
+Pichu Spiky Eared
 Level: 18
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Volt Tackle
+- Charge Beam
+- Fake Out
+- Swift
+
+Buizel
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Cyndaquil
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Exeggcute
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
 
 === TRAINER_WALLY_VR_2 ===
 Name: WALLY
