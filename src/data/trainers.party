@@ -5080,37 +5080,70 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Spinda
-Level: 31
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
+Camerupt @ Heat Rock  
+Ability: Solid Rock  
+Level: 31  
+EVs: 248 HP / 252 SpA / 8 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Sunny Day  
+- Earth Power  
+- Yawn  
+- Lava Plume  
 
-Vigoroth
-Level: 31
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
+Armarouge  
+Ability: Flash Fire  
+Level: 32  
+EVs: 248 HP / 4 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Mystical Fire  
+- Lava Plume  
+- Calm Mind  
+- Psyshock  
 
-Linoone
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
+Darmanitan-Galar  
+Ability: Zen Mode  
+Level: 33  
+Tera Type: Fire  
+EVs: 248 Atk / 12 SpA / 244 Spe  
+Hasty Nature  
+- Fire Punch  
+- Ice Punch  
+- Power-Up Punch  
+- Freeze-Dry  
 
-Slaking @ Sitrus Berry
-Level: 36
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+Volcarona  
+Ability: Flame Body  
+Level: 35    
+EVs: 8 HP / 248 SpA / 8 SpD / 244 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Quiver Dance  
+- Fiery Dance  
+- Morning Sun  
+- Giga Drain  
+
+Turtonator @ Loaded Dice  
+Ability: Shell Armor  
+Level: 35   
+EVs: 244 HP / 8 Atk / 248 SpA / 8 SpD  
+Quiet Nature  
+- Scale Shot  
+- Burning Jealousy  
+- Solar Beam  
+- Sunny Day  
+
+Charizard @ Charizardite X  
+Ability: Blaze  
+Level: 36   
+EVs: 252 Atk / 4 SpA / 8 SpD / 244 Spe  
+Jolly Nature  
+- Slash  
+- Dragon Claw  
+- Iron Tail  
+- Fire Fang  
+
 
 === TRAINER_WINONA_1 ===
 Name: SPIDER
