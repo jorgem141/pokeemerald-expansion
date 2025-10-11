@@ -573,6 +573,18 @@ const struct SpriteFrameImage gObjectEventPicTable_Xin[] = {
     overworld_frame(gObjectEventPic_Xin, 2, 4, 2),
 };
 
+const struct SpriteFrameImage gObjectEventPicTable_Spiderbutt[] = {
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Spiderbutt, 2, 4, 2),
+};
+
 static const struct SpriteFrameImage sPicTable_Brawly[] = {
     overworld_frame(gObjectEventPic_Brawly, 2, 4, 0),
     overworld_frame(gObjectEventPic_Brawly, 2, 4, 1),
