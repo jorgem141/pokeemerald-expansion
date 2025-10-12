@@ -4725,7 +4725,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 === TRAINER_GLACIA ===
-Name: GLACIA
+Name: KODU
 Class: Elite Four
 Pic: Elite Four Glacia
 Gender: Female
@@ -4735,48 +4735,77 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Pink
 
-Sealeo
-Level: 57
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Encore
-- Body Slam
-- Hail
-- Ice Ball
+Ninetales-Alola @ Light Clay  
+Ability: Snow Warning  
+Level: 61  
+Tera Type: Ice  
+EVs: 252 HP / 4 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Aurora Veil  
+- Hypnosis  
+- Blizzard  
+- Baton Pass  
 
-Glalie
-Level: 57
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Crunch
-- Icy Wind
-- Ice Beam
+Eiscue @ Loaded Dice  
+Ability: Ice Face  
+Level: 61  
+Shiny: Yes  
+Tera Type: Ghost  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+- Belly Drum  
+- Icicle Spear  
+- Iron Head  
+- Ice Spinner  
 
-Sealeo
-Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
-- Double Edge
-- Hail
-- Blizzard
+Weavile @ Focus Sash  
+Ability: Pickpocket  
+Tera Type: Ice  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Fake Out  
+- Knock Off  
+- Ice Shard  
+- Poison Jab  
 
-Glalie
-Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
+Glalie @ Glalitite  
+Ability: Inner Focus  
+Level: 61  
+Tera Type: Ice  
+EVs: 248 Atk / 8 SpD / 252 Spe  
+Jolly Nature  
+IVs: 30 HP / 30 Def / 30 SpA / 30 SpD / 30 Spe  
+- Crunch  
+- Explosion  
+- Earthquake  
+- Return  
 
-Walrein @ Sitrus Berry
-Level: 61
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Body Slam
-- Ice Beam
-- Sheer Cold
+Iron Bundle @ Booster Energy  
+Ability: Quark Drive  
+Level: 61  
+Tera Type: Water  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Hydro Pump  
+- Freeze-Dry  
+- Flip Turn  
+- Blizzard  
+
+Glaceon @ Choice Specs  
+Ability: Snow Cloak  
+Level: 62  
+Tera Type: Ice  
+EVs: 248 HP / 252 SpA / 8 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Water Pulse  
+- Blizzard  
+- Alluring Voice  
+- Freeze-Dry  
 
 === TRAINER_DRAKE ===
-Name: DRAKE
+Name: JORGE
 Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
@@ -4786,45 +4815,77 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
 
-Shelgon
-Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
-- Protect
-- Double Edge
+Roserade @ Eject Pack  
+Ability: Technician  
+Level: 62   
+Tera Type: Grass  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 31 HP / 3 Atk / 30 Def / 31 SpA /30 SpD / 30 Spe  
+- Toxic Spikes  
+- Hidden Power  
+- Leaf Storm  
+- Sludge Bomb  
 
-Altaria
-Level: 62
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+Salazzle @ Air Balloon  
+Ability: Corrosion  
+Level: 62  
+Tera Type: Fire  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Sunny Day  
+- Overheat  
+- Sludge Bomb  
+- Foul Play  
 
-Kingdra
-Level: 61
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
+Nidoking @ Life Orb  
+Ability: Sheer Force  
+Level: 62  
+Tera Type: Water  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Earth Power  
+- Focus Blast  
+- Sludge Wave  
+- Surf  
 
-Flygon
-Level: 61
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Crunch
-- Dragon Breath
-- Earthquake
+Clodsire @ Leftovers  
+Ability: Water Absorb  
+Level: 62  
+Tera Type: Ground  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Stealth Rock  
+- Yawn  
+- Earthquake  
+- Counter  
 
-Salamence @ Sitrus Berry
-Level: 63
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Dragon Claw
-- Rock Slide
-- Crunch
+Toxtricity @ Throat Spray  
+Ability: Punk Rock  
+Level: 62  
+Tera Type: Normal  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Modest Nature  
+IVs: 31 HP / 2 Atk / 31 Def / 30 SpA /31 SpD / 30 Spe
+Gigantamax: Yes
+- Boomburst  
+- Overdrive  
+- Psychic Noise  
+- Hidden Power
+
+Venusaur @ Venusaurite  
+Ability: Chlorophyll  
+Level: 63  
+Tera Type: Stellar  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Giga Drain  
+- Sludge Bomb  
+- Earth Power  
+- Synthesis   
 
 === TRAINER_ROXANNE_1 ===
 Name: DONOVAN
