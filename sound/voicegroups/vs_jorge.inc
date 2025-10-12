@@ -1,0 +1,3 @@
+voice_group vs_jorge
+	voice_keysplit voicegroup_french_horn_keysplit, keysplit_french_horn
+	voice_keysplit voicegroup_strings_keysplit, keysplit_strings
