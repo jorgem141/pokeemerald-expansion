@@ -239,6 +239,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kipp;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Xin;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spiderbutt;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Curry;
 // Begin pokemon event objects
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower;
@@ -494,6 +495,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_KIPP] =                     &gObjectEventGraphicsInfo_Kipp,
     [OBJ_EVENT_GFX_XIN] =                      &gObjectEventGraphicsInfo_Xin,
     [OBJ_EVENT_GFX_SPIDERBUTT] =               &gObjectEventGraphicsInfo_Spiderbutt,
+    [OBJ_EVENT_GFX_CURRY] =                    &gObjectEventGraphicsInfo_Curry,
     [OBJ_EVENT_GFX_POKE_BALL] =                &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
