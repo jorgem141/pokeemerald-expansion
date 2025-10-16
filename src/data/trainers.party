@@ -4623,116 +4623,175 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Roar
 
 === TRAINER_SIDNEY ===
-Name: SIDNEY
+Name: BOOT
 Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer / Force Setup First Turn
-Mugshot: Purple
+AI: Smart Trainer / Prediction
+Mugshot: Blue
 
-Mightyena
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
+Hatterene @ Leftovers  
+Ability: Magic Bounce  
+Level: 53  
+Tera Type: Water  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Draining Kiss  
+- Psychic Noise  
+- Trick Room  
 
-Shiftry
-Level: 55
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
+Delphox (F) @ Choice Specs  
+Ability: Blaze  
+Level: 55  
+Tera Type: Fire  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Dazzling Gleam  
+- Psyshock  
+- Flamethrower  
+- Grass Knot  
 
-Cacturne
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
+Reuniclus (F) @ Heavy-Duty Boots  
+Ability: Regenerator  
+Level: 55  
+Tera Type: Water  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+- Psychic Noise  
+- Knock Off  
+- Thunder Wave  
+- Recover  
 
-Crawdaunt
-Level: 55
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Surf
-- Swords Dance
-- Strength
-- Facade
+Oranguru (F) @ Room Service  
+Ability: Inner Focus  
+Level: 54  
+Tera Type: Fairy  
+EVs: 248 HP / 252 SpA / 8 SpD  
+Quiet Nature  
+IVs: 0 Atk  
+- Expanding Force  
+- Trick Room  
+- Foul Play  
+- Chilling Water  
 
-Absol @ Sitrus Berry
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rock Slide
-- Swords Dance
-- Slash
+Malamar (F) @ Assault Vest  
+Ability: Contrary  
+Level: 56  
+Tera Type: Dark  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+- Superpower  
+- Psycho Cut  
+- Knock Off  
+- Payback  
+
+Gardevoir (F) @ Gardevoirite  
+Ability: Trace  
+Level: 56  
+Shiny: Yes  
+Tera Type: Psychic  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hyper Voice  
+- Psyshock  
+- Mystical Fire  
+- Taunt  
 
 === TRAINER_PHOEBE ===
-Name: PHOEBE
+Name: MASON
 Class: Elite Four
 Pic: Elite Four Phoebe
-Gender: Female
+Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Green
+AI: Smart Trainer / Prediction / Powerful Status
+Mugshot: Yellow
 
-Dusclops
-Level: 55
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Curse
-- Protect
+Excadrill @ Air Balloon  
+Ability: Mold Breaker  
+Level: 56  
+Tera Type: Ground  
+EVs: 248 HP / 8 Atk / 252 SpD  
+Careful Nature  
+- Sandstorm  
+- Rapid Spin  
+- Earthquake  
+- Stealth Rock  
 
-Banette
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
+Dugtrio-Alola @ Smooth Rock  
+Ability: Sand Force  
+Level: 57  
+Tera Type: Ground  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Iron Head  
+- Earthquake  
+- Rock Slide  
+- Sandstorm  
 
-Sableye
-Level: 57
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
+Toedscruel @ Life Orb  
+Ability: Mycelium Might  
+Level: 55  
+Tera Type: Ground  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Spore  
+- Hex  
+- Energy Ball  
+- Pain Split  
 
-Banette
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Level: 55  
+Tera Type: Water  
+EVs: 244 HP / 36 Def / 228 SpD  
+Impish Nature  
+- Spikes  
+- Knock Off  
+- Toxic  
+- U-turn  
 
-Dusclops @ Sitrus Berry
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Ice Beam
-- Rock Slide
-- Earthquake
+Torterra @ White Herb  
+Ability: Shell Armor  
+Level: 58  
+Tera Type: Ghost  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Naughty Nature  
+- Shell Smash  
+- Headlong Rush  
+- Leaf Storm  
+- Wood Hammer  
+
+Camerupt @ Cameruptite  
+Ability: Solid Rock  
+Level: 59  
+Tera Type: Fire  
+EVs: 248 HP / 8 SpA / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Substitute  
+- Heat Wave  
+- Earth Power  
+- Protect  
 
 === TRAINER_GLACIA ===
 Name: KODU
 Class: Elite Four
 Pic: Elite Four Glacia
-Gender: Female
+Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 Mugshot: Pink
 
 Ninetales-Alola @ Light Clay  
@@ -4812,8 +4871,8 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Blue
+AI: Smart Trainer / Prediction / Powerful Status
+Mugshot: Green
 
 Roserade @ Eject Pack  
 Ability: Technician  
