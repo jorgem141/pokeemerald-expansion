@@ -56,6 +56,10 @@ static const u8* const sTrainerSlides[DIFFICULTY_COUNT][TRAINERS_COUNT][TRAINER_
 {
     [DIFFICULTY_NORMAL] =
     {
+        [TRAINER_ROXANNE_1] = 
+        {
+            [TRAINER_SLIDE_LAST_SWITCHIN] = COMPOUND_STRING("Switch em down, Switcha!{PAUSE_UNTIL_PRESS}"),
+        }
     },
 };
 
