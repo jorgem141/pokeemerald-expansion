@@ -216,34 +216,47 @@ Route101_EventScript_RouteSign::
 	end
 
 Route101_EventScript_BirchsBag::
-	lock
-	faceplayer
-	setflag FLAG_SYS_POKEMON_GET
-	setflag FLAG_RESCUED_BIRCH
-	fadescreen FADE_TO_BLACK
-	removeobject LOCALID_ROUTE101_ZIGZAGOON
-	setobjectxy LOCALID_PLAYER, 6, 13
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	special ChooseStarter
-	waitstate
-	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchApproachPlayer
-	waitmovement 0
-	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT
-	special HealPlayerParty
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
-	setvar VAR_BIRCH_LAB_STATE, 2
-	setvar VAR_ROUTE101_STATE, 3
-	clearflag FLAG_HIDE_MAP_NAME_POPUP
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, Route101_EventScript_HideMayInBedroom
-	call_if_eq VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom
-	warp MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB, 6, 5
-	waitstate
-	release
-	end
+    lock
+    faceplayer
+    msgbox Route101_Text_Select_Region, MSGBOX_DEFAULT
+    dynmultipush Route101_Text_Kanto, 0
+    dynmultipush Route101_Text_Johto, 1
+    dynmultipush Route101_Text_Hoenn, 2
+    dynmultipush Route101_Text_Sinnoh, 3
+    dynmultipush Route101_Text_Unova, 4
+    dynmultipush Route101_Text_Kalos, 5
+    dynmultipush Route101_Text_Alola, 6
+    dynmultipush Route101_Text_Galar, 7
+    dynmultipush Route101_Text_Paldea, 8
+    dynmultistack 0, 0, TRUE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE
+    copyvar VAR_STARTER_REGION, VAR_RESULT
+    setflag FLAG_SYS_POKEMON_GET
+    setflag FLAG_RESCUED_BIRCH
+    fadescreen FADE_TO_BLACK
+    removeobject LOCALID_ROUTE101_ZIGZAGOON
+    setobjectxy LOCALID_PLAYER, 6, 13
+    applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+    waitmovement 0
+    special ChooseStarter
+    waitstate
+    applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchApproachPlayer
+    waitmovement 0
+    msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT
+    special HealPlayerParty
+    setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
+    clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
+    setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+    setvar VAR_BIRCH_LAB_STATE, 2
+    setvar VAR_ROUTE101_STATE, 3
+    clearflag FLAG_HIDE_MAP_NAME_POPUP
+    checkplayergender
+    call_if_eq VAR_RESULT, MALE, Route101_EventScript_HideMayInBedroom
+    call_if_eq VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom
+    warp MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB, 6, 5
+    waitstate
+    release
+    end
+
 
 Route101_EventScript_HideMayInBedroom::
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
@@ -297,3 +310,25 @@ Route101_Text_RouteSign:
 	.string "ROUTE 101\n"
 	.string "{UP_ARROW} OLDALE TOWN$"
 
+Route101_Text_Select_Region:
+	.string "{PLAYER} looked inside the bag\n"
+	.string "and saw Pokemon from...$"
+
+Route101_Text_Kanto:
+    .string "Kanto$"
+Route101_Text_Johto:
+    .string "Johto$"
+Route101_Text_Hoenn:
+    .string "Hoenn$"
+Route101_Text_Sinnoh:
+    .string "Sinnoh$"
+Route101_Text_Unova:
+    .string "Unova$"
+Route101_Text_Kalos:
+    .string "Kalos$"
+Route101_Text_Alola:
+    .string "Alola$"
+Route101_Text_Galar:
+    .string "Galar$"
+Route101_Text_Paldea:
+    .string "Paldea$"

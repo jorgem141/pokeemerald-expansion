@@ -1146,3 +1146,15 @@ int ScriptMenu_AdjustLeftCoordFromWidth(int left, int width)
 
     return adjustedLeft;
 }
+
+static const u8 *const sRegionNames[] = {
+    COMPOUND_STRING("Kanto"),
+    COMPOUND_STRING("Johto"),
+    COMPOUND_STRING("Hoenn"),
+    COMPOUND_STRING("Sinnoh"),
+    COMPOUND_STRING("Unova"),
+    COMPOUND_STRING("Kalos"),
+    COMPOUND_STRING("Alola"),
+    COMPOUND_STRING("Galar"),
+    COMPOUND_STRING("Paldea"),
+};

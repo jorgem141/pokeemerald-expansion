@@ -110,11 +110,72 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
     {8, 4},
 };
 
-static const u16 sStarterMon[STARTER_MON_COUNT] =
+/* --- Replace the broken sStarterMon block with three arrays --- */
+
+/* Generation 1 style starters (example) */
+static const u16 sStarterMonGen1[STARTER_MON_COUNT] =
+{
+    SPECIES_BULBASAUR,
+    SPECIES_CHARMANDER,
+    SPECIES_SQUIRTLE,
+};
+
+/* Generation 2 style starters (example) */
+static const u16 sStarterMonGen2[STARTER_MON_COUNT] =
+{
+    SPECIES_CHIKORITA,
+    SPECIES_CYNDAQUIL,
+    SPECIES_TOTODILE,
+};
+
+/* Generation 3 style starters (example) */
+static const u16 sStarterMonGen3[STARTER_MON_COUNT] =
 {
     SPECIES_TREECKO,
     SPECIES_TORCHIC,
     SPECIES_MUDKIP,
+};
+
+static const u16 sStarterMonGen4[STARTER_MON_COUNT] =
+{
+    SPECIES_TURTWIG,
+    SPECIES_CHIMCHAR,
+    SPECIES_PIPLUP,
+};
+
+static const u16 sStarterMonGen5[STARTER_MON_COUNT] =
+{
+    SPECIES_SNIVY,
+    SPECIES_TEPIG,
+    SPECIES_OSHAWOTT,
+};
+
+static const u16 sStarterMonGen6[STARTER_MON_COUNT] =
+{
+    SPECIES_CHESPIN,
+    SPECIES_FENNEKIN,
+    SPECIES_FROAKIE,
+};
+
+static const u16 sStarterMonGen7[STARTER_MON_COUNT] =
+{
+    SPECIES_ROWLET,
+    SPECIES_LITTEN,
+    SPECIES_POPPLIO,
+};
+
+static const u16 sStarterMonGen8[STARTER_MON_COUNT] =
+{
+    SPECIES_GROOKEY,
+    SPECIES_SCORBUNNY,
+    SPECIES_SOBBLE,
+};
+
+static const u16 sStarterMonGen9[STARTER_MON_COUNT] =
+{
+    SPECIES_SPRIGATITO,
+    SPECIES_FUECOCO,
+    SPECIES_QUAXLY,
 };
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -348,12 +409,42 @@ static const struct SpriteTemplate sSpriteTemplate_StarterCircle =
 };
 
 // .text
+/* .text
+   Returns the species for a chosen starter index, selecting the proper
+   starter set at runtime based on flags.
+*/
 u16 GetStarterPokemon(u16 chosenStarterId)
 {
-    if (chosenStarterId > STARTER_MON_COUNT)
+    u16 region = VarGet(VAR_STARTER_REGION);
+
+    if (chosenStarterId >= STARTER_MON_COUNT)
         chosenStarterId = 0;
-    return sStarterMon[chosenStarterId];
+
+    switch (region)
+    {
+    case 0: // Kanto
+        return sStarterMonGen1[chosenStarterId];
+    case 1: // Johto
+        return sStarterMonGen2[chosenStarterId];
+    case 2: // Hoenn
+        return sStarterMonGen3[chosenStarterId];
+    case 3: // Sinnoh
+        return sStarterMonGen4[chosenStarterId];
+    case 4: // Unova
+        return sStarterMonGen5[chosenStarterId];
+    case 5: // Kalos
+        return sStarterMonGen6[chosenStarterId];
+    case 6: // Alola
+        return sStarterMonGen7[chosenStarterId];
+    case 7: // Galar
+        return sStarterMonGen8[chosenStarterId];
+    case 8: // Paldea
+        return sStarterMonGen9[chosenStarterId];
+    default:
+        return sStarterMonGen3[chosenStarterId]; // fallback to Hoenn
+    }
 }
+
 
 static void VblankCB_StarterChoose(void)
 {
