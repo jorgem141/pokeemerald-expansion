@@ -325,11 +325,11 @@ MauvilleCity_Gym_Text_AngeloPostBattle:
 	.string "You killed my bugs...$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
-	.string "Hey what's up?\n"
-	.string "Did you like the Silksong\p"
-	.string "references here?\n"
-	.string "What do you mean just having\p"
-	.string "bugs everywhere isn't a reference.\n"
+	.string "Hey what's up?\p"
+	.string "Did you like the Silksong\n"
+	.string "references here?\p"
+	.string "What do you mean just having\n"
+	.string "bugs everywhere isn't a reference.\p"
 	.string "Where'd I find my Trainers?\n"
 	.string "Skid Row.\p"
 	.string "They were the cheapest available.\n"
