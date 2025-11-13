@@ -3398,23 +3398,24 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Electrike
-Level: 20
+Araquanid
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Quick Attack
-- Thunder Wave
-- Spark
-- Leer
+- Wide Guard
+- Bubble Beam
+- Pounce
+- Protect
 
-Voltorb
-Level: 20
+Ribombee
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
-- Shock Wave
-- Screech
+- Fairy Wind
+- Struggle Bug
+- Swift
+- Pollen Puff
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
@@ -3455,12 +3456,16 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 20
+Vivillon
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Magnemite
-Level: 20
+Whirlipede
+Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Mothim
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_FERNANDO_1 ===
@@ -5149,7 +5154,7 @@ Jolly Nature
 - Knock Off  
 
 === TRAINER_FLANNERY_1 ===
-Name: FLANNERY
+Name: RALI
 Class: Leader
 Pic: Leader Flannery
 Gender: Female
@@ -5158,37 +5163,67 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Numel
-Level: 28
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
-- Sunny Day
+Bombirdier @ Hard Stone  
+Ability: Rocky Payload  
+Level: 29  
+EVs: 8 HP / 252 Atk / 244 Spe  
+Jolly Nature  
+- Rock Tomb  
+- Pluck  
+- Torment  
+- Hone Claws  
 
-Slugma
-Level: 28
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
+Tropius @ Grassium Z  
+Ability: Solar Power  
+Level: 30   
+EVs: 244 HP / 12 Atk / 248 SpA / 4 Spe  
+Mild Nature  
+- Leaf Storm  
+- Growth  
+- Bulldoze  
+- Aerial Ace  
 
-Camerupt
-Level: 30
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Tackle
-- Sunny Day
-- Attract
+Corviknight @ Eject Pack  
+Ability: Pressure  
+Level: 30   
+EVs: 252 HP / 252 Def  
+Impish Nature  
+- Steel Wing  
+- Pluck  
+- Roost  
+- Taunt  
 
-Torkoal @ White Herb
-Level: 33
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Sunny Day
-- Body Slam
-- Attract
+Mantine @ Leftovers  
+Ability: Water Absorb  
+Level: 31  
+EVs: 244 HP / 28 Def / 156 SpA / 76 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Water Pulse  
+- Air Slash  
+- Icy Wind  
+- Roost  
+
+Talonflame @ Heavy-Duty Boots  
+Ability: Gale Wings  
+Level: 32  
+EVs: 4 HP / 244 Atk / 12 SpD / 244 Spe  
+Jolly Nature  
+- Tailwind  
+- Flare Blitz  
+- Quick Attack  
+- Aerial Ace  
+
+Gliscor @ Sitrus Berry  
+Ability: Poison Heal  
+Level: 33  
+Tera Type: Flying  
+EVs: 192 HP / 244 Atk / 72 Spe  
+Adamant Nature  
+- U-turn  
+- Poison Jab  
+- Acrobatics  
+- Roost  
 
 === TRAINER_NORMAN_1 ===
 Name: CURRY
@@ -6417,21 +6452,21 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 20
+Dottler
+Level: 23
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Headbutt
-- Sand Attack
-- Growl
-- Thunderbolt
+- Struggle Bug
+- Light Screen
+- Reflect
+- Recover
 
-Gulpin
-Level: 20
+Frosmoth
+Level: 24
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
+- Aurora Beam
+- Swift
+- Giga Drain
+- Struggle Bug
 
 === TRAINER_QUINCY ===
 Name: QUINCY
@@ -12431,21 +12466,21 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 20
+Ariados
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
-- Thunder Punch
+- Focus Energy
+- X Scissor
+- Shadow Sneak
+- Electroweb
 
-Meditite
-Level: 20
+Butterfree
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Detect
-- Confusion
-- Meditate
+- Psybeam
+- Sleep Powder
+- Attract
+- Gust
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -16414,18 +16449,16 @@ Double Battle: No
 AI: Basic Trainer
 
 Illumise
-Level: 20
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Shock Wave
-- Quick Attack
-- Charm
 
 Volbeat
-Level: 20
+Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Shock Wave
-- Quick Attack
-- Confuse Ray
+
+Dustox
+Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_DARIUS ===
 Name: DARIUS
